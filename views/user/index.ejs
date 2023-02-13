@@ -1,0 +1,15 @@
+<%- include("../layout/header") -%>
+
+    <div class="index">
+       <% ads.forEach(data =>{%>
+        <div class="card bg-dark text-white" onclick="window.location.href='<%= data.link%>'">
+            <img src="/upload/images/<%= data.image%>" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title"><%= data.title%></h5>
+              <p class="card-text"><%= data.des%></p>
+              <p class="card-text"><%= data.Date%></p>
+            </div>
+          </div>
+        <%}) %>
+    </div>
+    <%- include("../layout/footer") -%>

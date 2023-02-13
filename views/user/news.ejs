@@ -1,0 +1,18 @@
+<%- include("../layout/header") -%>
+
+<div class="news">
+    <% news.forEach(data => {%>
+        <div class="card" style="width: 18rem;" onclick="window.location.href='/news/<%= data.id%>'">
+            <img class="card-img-top" src="/upload/images/<%= data.image%>" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"><%= data.title%></h5>
+              <p class="card-text"><%= data.minDes%></p>
+              <p href="#" class="text-primary"><%= data.cat%></p>
+              <br>
+              <small><%= data.Date%></small>
+            </div>
+          </div>
+    <%}) %>
+</div>
+
+<%- include("../layout/footer") -%>

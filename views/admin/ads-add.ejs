@@ -1,0 +1,25 @@
+<%- include("../layout/admin-header") -%>
+
+<div class="ads-add">
+    <br>
+    <div class="panel">
+        <form action="/admin/ads/add" method="post" enctype="multipart/form-data">
+            <br>
+            <p>اضافة اعلان</p>
+            <input required type="text" name="title" placeholder="عنوان الاعلان">
+            <br>
+            <input required type="text" name="des" placeholder="الوصف">
+            <br>
+            <input required type="text" name="link" placeholder="رابط الموقع المعلن">
+            <br>
+            <input required name="image" type="file">
+            <br>
+            <button><svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-check" width="40" height="40" viewBox="0 0 24 24" stroke-width="1" stroke="#0a3a86" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                <path d="M5 12l5 5l10 -10" />
+              </svg></button>
+        </form>
+    </div>
+</div>
+
+<%- include("../layout/footer") -%>

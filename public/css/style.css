@@ -1,0 +1,450 @@
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;700&display=swap');
+
+*{
+    font-family: 'El Messiri', sans-serif;
+}
+
+nav svg{
+    margin-top: -5px;
+}
+nav{
+    direction: rtl;
+    text-align: center;
+}
+
+nav .mynav-brand{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav .mynav-brand:hover{
+    color: #0a3a86;
+}
+
+nav .nav-link{
+    font-size: 18px;
+    text-decoration: none;
+    color: #0a3a86;
+    transition: all 500ms ease 0ms;
+    border-width: 2px;
+}
+
+nav .nav-link:hover{
+    font-size: 22px;
+    border-bottom-style: solid;
+    border-color: white;
+    border-width: 2px;
+    border-radius: 4px;
+}
+
+.register form{
+    direction: rtl;
+    float: right;
+    margin: 30px 30px 0 0;
+    width: 500px;
+}
+
+.register form p{
+    font-size:30px;
+}
+
+.register form input{
+    border: none;
+    outline: none;
+    border-bottom-style: solid;
+    border-color: #0a3a86;
+    width:400px;
+    margin-top: 80px;
+}
+
+.register form button{
+    margin-top: 80px;
+    border-color: #0a3a86;
+    background-color: #f8f9fa;
+    color: #0a3a86;
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    transition: all 500ms ease 0ms;
+}
+
+.register form button:hover{
+    font-size: 25px;
+    background-color: #0a3a86;
+    color: white;
+}
+
+.login .animated{
+    width:700px;
+    position: absolute;
+    top: 50px;
+}
+
+.login form{
+    width: 500px;
+    direction: rtl;
+    float: right;
+    margin-top: 60px;
+}
+
+.login form p{
+    font-size: 30px;
+}
+
+.login form input{
+    border: none;
+    outline: none;
+    border-bottom-style: solid;
+    border-color: #0a3a86;
+    width:400px;
+    margin-top: 80px;
+}
+
+.login form button{
+    margin-top: 80px;
+    border-color: #0a3a86;
+    background-color: #f8f9fa;
+    color: #0a3a86;
+    font-size: 20px;
+    border-radius: 10px;
+    border-style: solid;
+    transition: all 500ms ease 0ms;
+}
+
+.login form button:hover{
+    font-size: 25px;
+    background-color: #0a3a86;
+    color: white;
+}
+
+.admin-category{
+    text-align: center;
+    direction:rtl;
+}
+
+.admin-category table{
+    margin-top: 10px;
+}
+
+.admin-category .contorls{
+    margin-top: 20px;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+.admin-category .contorls p{
+    font-size: 25px;
+    color: #0a3a86;
+}
+
+.admin-category table th{
+    color: #0a3a86;
+}
+
+.admin-category .add-category{
+    background-color: #0a3a86;
+    border: none;
+    border-radius: 30px;
+    width: 60px;
+    margin: 0 20px 0 20px;
+    transition: all 500ms ease 0ms;
+}
+
+.admin-category .delete-category-all{
+    background-color: #0a3a86;
+    border: none;
+    border-radius: 30px;
+    width: 60px;
+    margin: 0 20px 0 20px;
+    transition: all 500ms ease 0ms;
+}
+
+.admin-category .btns button:hover{
+    width: 100px
+}
+
+.admin-category .edit{
+    background-color: #0a3a86;
+    border: none;
+    border-radius: 30px;
+    transition: all 500ms ease 0ms;
+}
+
+.admin-category .delete{
+    background-color: #0a3a86;
+    border: none;
+    border-radius: 30px;
+    transition: all 500ms ease 0ms;
+}
+
+.admin-category table button:hover{
+    font-size: 25px;
+}
+
+.add-category{
+    direction: rtl;
+}
+
+.add-category .animated{
+    width: 800px;
+    position: absolute;
+    left: -30px;
+    top: 10px;
+}
+
+.add-category form{
+    margin-right: 40px;
+    margin-top: 300px;
+    width: 450px;
+}
+
+.add-category form input{
+    width: 400px;
+    border-color: #0a3a86;
+    border-style: solid;
+    outline: none;
+    border-radius: 10px;
+}
+
+.add-category form button{
+    margin-top: 40px;
+    background-color: white;
+    border-style: solid;
+    border-color: #0a3a86;
+    border-radius: 12px;
+    color: #0a3a86;
+    font-size: 20px;
+    transition: all 500ms ease 0ms;
+}
+
+.add-category form button:hover{
+    background-color: #0a3a86;
+    color: white;
+    font-size: 25px;
+}
+
+.add-news{
+    direction: rtl;
+}
+
+.add-news form{
+    width: 500px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.add-news p{
+    text-align: center;
+    font-size: 30px;
+}
+
+.add-news input{
+    margin-top: 70px;
+    border: none;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #0a3a86;
+    outline: none;
+    width: 400px;
+}
+
+.add-news select{
+    margin-top: 70px;
+    border: none;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #0a3a86;
+    outline: none;
+    width: 400px
+}
+
+.add-news button{
+    background-color: #0a3a86;
+    font-size:25px;
+    border: none;
+    border-radius: 50%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all 500ms ease 0ms;
+}
+
+.add-news button:hover{
+    font-size: 30px;
+    box-shadow: 5px 5px #00000041;
+}
+
+.add-news .animated{
+    width: 700px;
+    position: absolute;
+    top: 60px;
+    left: 10px;
+}
+
+.ads-add .panel{
+    height: 600px;
+    width:400px;
+    background-color: #0a3a86;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.411);
+    text-align: center;
+    direction:rtl;
+}
+
+.ads-add input::placeholder{
+    color: #0a3a86ad
+}
+
+.ads-add p{
+    color: #fff;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.ads-add input[type="file"]{
+    background-color: #fff
+}
+
+
+.ads-add .panel input{
+    margin-top: 50px;
+    width: 300px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+
+.ads-add .panel button{
+    background-color: #fff;
+    border-radius: 50%;
+    border: none;
+    margin-top: 50px;
+    height: 50px;
+}
+
+.index .card{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+.teams img{
+    width: 200px;
+}
+
+.teams{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team-card{
+    width: 250px;
+    justify-content: center;
+    margin-top: 30px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.411);
+    border-radius: 20px;
+}
+
+.teams .team-card p{
+    text-align: center;
+    font-size: 25px;
+}
+
+.news{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.news .card{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px #00000079
+}
+
+@media only screen and (max-width: 1000px){
+    .news .card{
+        width: 150px!important;
+    }
+
+    .news .card .card-title{
+        font-size: 15px!important;
+    }
+
+    .news .card .card-text{
+        font-size: 10px!important;
+    }
+
+}
+
+.news-about img{
+    width: 500px;
+    position: absolute;
+    left: 30px;
+    top: 200px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #0000009d;
+}
+
+.news-about .title{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid #0a3a86;
+    width: 300px;
+    margin-top: 40px;
+}
+
+.news-about .des{
+    direction: rtl;
+    margin-right: 40px;
+    margin-top: 50px;
+    font-size: 16px;
+    width: 600px;
+    float: right;
+}
+@media only screen and (max-width: 1000px) {
+    .news-about img{
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        width: 320px;
+        top: 20px;
+    }
+}
+
+@media only screen and (max-width: 1000px){
+    .login{
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        display: grid;
+        justify-content: center;
+        zoom: 80%;
+    }
+
+    .register{
+        float: none;
+        display: grid;
+        justify-content: center;
+        zoom: 80%;
+        margin: 0px;
+        width: 500px;
+    }
+
+    .login input{
+        width: 200px;
+    }
+}

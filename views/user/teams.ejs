@@ -1,0 +1,13 @@
+<%- include("../layout/header") -%>
+
+<div class="teams">
+    <% teams.forEach(data => {%>
+        <div class="team-card" onclick="window.location.href='/teams/<%= data.name%>'">
+            <center><img src="/upload/images/<%= data.image%>" alt=""></center>
+            <br>
+            <p><%= data.name%></p>
+        </div>
+    <%}) %>
+</div>
+
+<%- include("../layout/footer") -%>
